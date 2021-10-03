@@ -70,6 +70,7 @@ ${catkin_LIBRARIES}
 add_service_files(
         FILES
         SaveMap.srv
+        SendImu.srv
 )
 
 generate_messages(
